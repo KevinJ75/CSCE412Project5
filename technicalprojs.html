@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link id="mainStyleSheet" rel="stylesheet" href="landingstyle.css" type="text/css">
+</head>
+
+<body class="body-tech">
+    <div class="myheader">
+        <h1 class="header-tech">Kevin Joseph</h1>
+    
+        <nav class="nav-tech">
+            <div class="nav-items"></div>
+            <a href="index.html" class="links-tech"><b>About Me</b> </a>
+            <a href="qualifications.html" class="links-tech"><b>Skills</b></a>
+            <a href="service.html" class="links-tech"><b>My Service</b></a>
+        </nav>
+    </div>
+    
+    <div class="container1">
+        <button onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+    </div>
+
+    <h1 class ="Developer">Developer/Research Assistant at <span style="color: maroon;">Texas A&M University</span></h1>
+
+    <div class="project-container">
+        <img src="images/application.png" alt="Project Image" class ="interface">
+        <div class="social-icons">
+            <a href="https://github.com/Starcity1/Figure-Application" target="_blank">
+                <img src="images/github-icon.png" alt="GitHub">
+            </a>
+        </div>
+    </div>
+
+    <div class="project-container4">
+        <p class="figureSummary" id ="figureText">
+            Over this past summer, I got to work on a small team project under an atmospheric sciences professor at 
+            <span style="color: maroon;">TAMU</span>. We created a Python program to read data pertaining to 
+            lightning strikes in the Houston area and then created analytical models for both professor and students
+            to use in their research/papers. The UI for the program is shown above.
+        </p>
+    </div>
+    
+
+    <div class="project-container2">
+        <img src = "images/Concept Idea of application.png" alt="blueprintimage" class="blueprint">
+        <p class="figureSummary" id="blueprintText">
+            This was our initial blueprint for the interface. There were some features that didn't end up making it and some that were revamped.
+        </p>
+    </div>
+
+    <div class="project-container3">
+        <img src ="images/models.png" alt="models" class="models">
+        <p class="figureSummary" id ="modelsText">
+            These are some of the models we created using matplotlib  plus a special library called <a href="https://scitools.org.uk/cartopy/docs/latest/">cartopy</a>. These were tedious to make but quite interesting. 
+        </p>
+    </div>
+
+    <script src="functions.js"></script>
+</body>
+
+</html>

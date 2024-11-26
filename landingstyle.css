@@ -1,0 +1,465 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-items-landing{
+    height: 50px;
+    background: rgb(237, 230, 230);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1000px) / 2); 
+}
+
+.header-landing{
+    padding-left: 584px;
+    background: rgb(237, 230, 230);
+    padding-top: 50px;
+}
+
+.links-landing{
+    text-decoration: none;
+    color: black;
+    padding: 0 5.0rem;
+}
+
+.body-landing{
+    background: rgb(237, 230, 230);
+}
+
+.container-landing{
+    margin-left: 225px;
+    margin-top: 65px;
+}
+
+.maininfo-landing p{
+    font-size: x-large;
+    padding-left: 275px;
+    width: 1000px; 
+}
+
+.maininfo-landing img{
+    float: left;
+    margin-right: 25px;
+    border: 2px solid black;
+}
+
+.mainfooter-landing {
+    background: linear-gradient(to bottom, rgb(241, 238, 238), rgb(237, 230, 230));
+    color: black;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 0.2px solid #555;
+}
+
+.footy-landing{
+    font-size: large;
+}
+
+.footy-landing img{
+    width: 30px;
+    height: 30px;
+
+}
+
+/* Landingstyle1 above*/
+
+/* qualifstyles1 below */
+
+
+.body-qualif {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c1e6fe;
+}
+
+.nav-qualif {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1000px) / 2); 
+}
+
+.navlinks-qualif {
+    padding: 5 5.0rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav img{
+    width: 30px;
+    height: 30px;
+}
+
+.resume{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.resume-icon {
+    width: 450px;
+    margin-right: 1%;
+    margin-top: 95px;
+    float: right;
+    border: 0.2px solid black;
+}
+
+.interests {
+    margin-left: 50px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    width: 800px;
+    text-indent: 50px;
+    background-color: beige;
+    padding:12px 80px;
+    border-radius: 25px;
+}
+
+.container-qualif{
+    background-color: antiquewhite;
+    border-radius: 25px;
+    width: 50%;
+    margin: auto;
+}
+
+#skillsheader{
+    text-align: center;
+    margin-top: 50px;
+    float: initial;
+}
+
+.skills {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+    place-items: center;
+}
+
+.skills img {
+    width: 100%;
+    max-width: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+/* qualifstyles1 above*/
+
+/* techprojs1 below */
+
+.body-tech{
+    background: bisque;
+}
+
+.header-tech{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.Developer{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 3%;
+    width: 68%;
+    padding-left: 34%;
+}
+
+.nav-tech{
+    height: 50px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1000px) / 2); 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -3%;
+}
+
+.links-tech{
+    text-decoration: none;
+    color: black;
+    padding: 0 5.0rem
+}
+
+.project-container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.interface {
+    max-width: 792px;
+    height: 430px;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.figureSummary{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%; 
+}
+
+.blueprint{
+    max-width: 792px;
+    height: 430px;
+    margin-top: 180px;
+    border: 2px solid black;
+}
+
+.models{
+    max-width: 792px;
+    height: 430px;
+    margin-top: 180px;
+    border: 2px solid black;
+}
+
+.project-container2{
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin: 0 auto;
+}
+
+.project-container3{
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin: 0 auto;
+}
+
+/* techprojs1 above*/
+
+/* service1 below */
+
+.body-service {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1500px) / 2); 
+}
+
+.links-service{
+    text-decoration: none;
+    color: black;
+    padding: 0 6rem;
+}
+
+.container-service {
+    max-width: 800px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.volunteer-section {
+    margin-bottom: 90px;
+    overflow: hidden;
+}
+
+.volunteer-section img {
+    float: left;
+    margin-right: 20px;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.volunteer-section figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.volunteer-section p {
+    overflow: hidden;
+}
+
+.right-align img {
+    float: right;
+    margin-left: 20px;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.right-align figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+header {
+    background-color: #ce7e52;
+    color: black;
+    padding: 10px 400px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body-service{
+    background-color: rgb(236, 207, 233);
+}
+
+.para-service{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+.bottom-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.bottom-section a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.meee{
+    max-width: 200px;
+    padding-left: 5%;
+    float: left;
+    margin-top: -29%;
+    border-radius: 10%;
+}
+
+/* service1 above*/
+
+/* aipage1 below */
+
+.body-ai {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f4f4f4, #e0e0e0);
+}
+
+.header-ai {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-ai h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.header-p p {
+    font-size: 1.2em;
+}
+
+.nav-ai {
+    background: linear-gradient(to bottom, #444, #333);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.links-ai{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #555, #444);
+    transition: background 0.3s ease;
+}
+
+.nav-links:hover {
+    background: linear-gradient(to bottom, #777, #666);
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #fff, #f9f9f9);
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-ai {
+    background: linear-gradient(to bottom, #333, #444);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #555;
+}
+
+.footer-ai p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+}
